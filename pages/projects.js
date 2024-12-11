@@ -67,6 +67,6 @@ export async function getServerSideProps() {
   }
 
   return {
-    props: { projects }, // 프로젝트 데이터를 전달
+    props: { projects }, // 프로젝트 데이터를 전달!
   };
 }
