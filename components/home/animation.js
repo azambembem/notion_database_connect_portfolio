@@ -51,7 +51,6 @@ export default function Animation() {
   const [isBrowser, setIsBrowser] = useState(false);
 
   useEffect(() => {
-    // 브라우저 환경 확인
     if (typeof window !== "undefined") {
       setIsBrowser(true);
 
