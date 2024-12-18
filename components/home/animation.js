@@ -54,7 +54,7 @@ export default function Animation() {
     if (typeof window !== "undefined") {
       setIsBrowser(true);
 
-      fetch("/animation.json") // public 폴더에 있는 JSON 파일을 fetch로 불러옴
+      fetch("/animation.json")
         .then((response) => response.json())
         .then((data) => setAnimationData(data));
     }
