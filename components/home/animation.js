@@ -3,7 +3,7 @@ import Lottie from "react-lottie-player";
 
 // import lottieJson from "/public/animation.json";
 // import lottieJson from "/animation.json";
-import lottieJson from "../../public/animation.json";
+import lottieJson from "/public/Animation.json";
 
 export default function Animation() {
   return (
